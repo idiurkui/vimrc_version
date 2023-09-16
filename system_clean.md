@@ -35,3 +35,6 @@ ORACLE_SID=orcl
 
 ## yarn:
 YARN_CACHE_FOLDER=x:\yarn\Cache\v6
+
+## temp:
+TEMP=x:\package_manager\Temp
