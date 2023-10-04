@@ -1,0 +1,51 @@
+### some command on `ctrl+R` on windows
+`taskmgr` about situation on usage of mem and cpu  
+`appwiz.cpl` about uninstall or windows feature  
+`services.msc` about services start or stop, sc start or sc stop   
+`ncpa.cpl`  about network  
+`diskmgmt.msc` about parts and disk information, operate CURL on disk  
+`sysdm.cpl` environment variable  
+`lusrmgr.cpl` operate CURL system user and group  
+`devmgmt.msc` devices management  
+`dxdiag` look information this computer  
+`regedit` CURL register variables  
+`control system`  control panel and computer information  
+`explorer` file management 
+`%UserProfile%` current user home
+`system32`
+
+### some shortcut on windows
+win+shift+s  snapping  
+win+v  open clipboards  
+win+e  open explorer  
+win+d  return to desktop 
+win+I  setting  
+win+Q  search  
+win+m  minimizing all windows  
+win+up maximizing, win+left|right alignment, win+down mimizing  
+win++ win+- magnify  
+win+: emoji  
+win+, view desktop  
+win+num  
+win+p split screen  
+ctrl+shift+N create a fold  
+
+### commands on powershell  
+`start-process powershell -verb runas ` to administrator  
+`netstat -anb` look ports with process
+`tasklist`
+`taskkill /F /IM file.exe`  kill a process  
+
+
+# some command on `super+f2` on ubuntu
+`nautilus` explorer  
+
+# some shortcut on ubuntu
+`super+A` start  
+`super+D` return desktop  
+`ctrl+alt+t` open terminal  
+`super+tab` or `alt+tab` switch window  
+
+
+
+
