@@ -1,0 +1,249 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "files.autoSave": "onWindowChange",
+    "editor.fontSize": 20,
+    "vim.targets.smartQuotes.enable": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.searchHighlightColor": "rgba(10, 150, 255, 0.6)",
+    "vim.substitutionColor": "rgba(10, 150, 255, 0.6)",
+    "vim.surround": true,
+    "vim.history": 1000,
+    "vim.showcmd": true,
+    "vim.useSystemClipboard": true,
+    "vim.autoindent": true,
+    "vim.smartcase": true,
+    "vim.wrapscan": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.duration": 150,
+    "vim.highlightedyank.color": "rgba(0, 240, 170, 0.5)",
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+
+        {
+            "before": [
+                "<leader>", "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "x"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "x"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "A"
+            ],
+            "after": [
+                "g", "g", "V", "G"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "after": [
+                "g", "g", "V", "G"
+            ]
+
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n"
+            ],
+            "after": [
+                "b",
+                "i"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "m"
+            ],
+            "after": [
+                "e",
+                "a"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                ":only"
+            ]
+        },
+        {
+            "before": [
+                "<tab>",
+                "o"
+            ],
+            "commands": [
+                ":tabonly"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+
+
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "x"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "x"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+    ],
+    "vim.handleKeys": {
+
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "vim.insertModeKeyBindingsNonRecursive": [
+    ],
+    "vim.leader": "<space>",
+    "vim.overrideCopy": true,
+    "vim.neovimConfigPath": "~/.config/nvim/init.vim",
+    "vim.neovimPath": "/usr/bin/nvim",
+    "vim.neovimUseConfigFile": true,
+    "vim.enableNeovim": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "[java]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on"
+        }
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "php-intellisense.trace.server": "messages",
+    "intelephense.files.associations": [
+        "*.blade.php",
+        "*.php",
+        "*.phtml"
+    ],
+    "blade.format.enable": true,
+    "bladeFormatter.format.indentInnerHtml": true,
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "php.inlayHints.types.suppressVariableFromLiteral": false,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    }
+}
