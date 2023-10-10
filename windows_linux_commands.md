@@ -35,7 +35,7 @@ ctrl+shift+N create a fold
 `netstat -anb` look ports with process
 `tasklist`
 `taskkill /F /IM file.exe`  kill a process  
-
+`sc delete <service>`
 
 # some command on `super+f2` on ubuntu
 `nautilus` explorer  
