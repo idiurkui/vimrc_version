@@ -31,13 +31,23 @@ win+p split screen
 ctrl+shift+N create a fold  
 
 ### shortcut on bash
-`ctrl+U` delete to cursor
-`ctrl+K` delete to end from cursor in the line
-`ctrl+H` delete a letter before cursor
-`ctrl+A` jump to front of the command line
-`ctrl+E` jump to end of the command line
-`ctrl+W` delete a word before cursor
-`ctrl+D` logout
+`ctrl+U` delete to cursor  
+`ctrl+K` delete to end from cursor in the line  
+`ctrl+H` delete a letter before cursor  
+`ctrl+A` jump to front of the command line  
+`ctrl+E` jump to end of the command line  
+`ctrl+W` delete a word before cursor  
+`ctrl+D` logout    
+
+ctrl+alt+h delete a word before cursor  
+ctrl+f move by letter  
+ctrl+b move by a letter  
+ctrl+alt+f move by a word   
+ctrl+alt+b move by a word  
+
+ctrl+t swap position of two letter  
+ctrl+alt+t swap position of two words  
+
 
 
 ### commands on powershell  
