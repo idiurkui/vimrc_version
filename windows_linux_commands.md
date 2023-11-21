@@ -30,6 +30,16 @@ win+num
 win+p split screen  
 ctrl+shift+N create a fold  
 
+### shortcut on bash
+`ctrl+U` delete to cursor
+`ctrl+K` delete to end from cursor in the line
+`ctrl+H` delete a letter before cursor
+`ctrl+A` jump to front of the command line
+`ctrl+E` jump to end of the command line
+`ctrl+W` delete a word before cursor
+`ctrl+D` logout
+
+
 ### commands on powershell  
 `start-process powershell -verb runas ` to administrator  
 `netstat -anb` look ports with process
