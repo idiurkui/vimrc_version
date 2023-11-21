@@ -66,3 +66,16 @@ cnoremap <C-o> only
 cnoremap <C-Left> tabprevious<CR>
 cnoremap <C-Right> tabnext<CR>
 cnoremap <C-n> tabnew 
+
+
+" 1 -> blinking block
+" 2 -> solid block
+" 3 -> blinking underscore
+" 4 -> solid underscore
+" 5 -> blinking vertical bar
+" 6 -> solid vertical bar
+" cursor on Mode Changing
+let &t_SI = "\e[5 q" "SI = INSERT mode
+let &t_SR = "\e[4 q" "SR = REPLACE mode
+let &t_EI = "\e[1 q" "EI = NORMAL mode
+
