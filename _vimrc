@@ -1,4 +1,5 @@
-" euewrqe(無 水雷屯)
+"euewrqe(無 水雷屯)
+"source ~/.vimrc
 " Vim with all enhancements
 " customize
 
@@ -26,7 +27,7 @@ let &t_EI = "\e[1 q" "EI = NORMAL mode
 
 set number
 set encoding=UTF-8
-set fileencoding=utf-8
+" set fileencoding=utf-8
 scriptencoding utf-8
 set ffs=unix,dos,mac
 set nocompatible
@@ -158,10 +159,15 @@ nnoremap <Leader>m ea
 nnoremap <Leader>N Bi
 nnoremap <Leader>M Ea
 noremap <Leader>T :terminal<CR>
-noremap <Leader>lT :vsp<CR>:terminal<CR>
+noremap <Leader>lT :vsp<CR>:terminal<CR>i
 noremap <Leader>bT :sp<CR>:terminal<CR>
 noremap <Leader>lsp :vsp<CR>
 noremap <Leader>bsp :sp<CR>
+
+noremap <C-t>l :vsp<CR>:terminal<CR>i
+tnoremap <C-t> exit<CR><CR>
+noremap <C-t>b :sp<CR>:terminal<CR>i
+
 
 noremap <C-Left> <C-w><
 noremap <C-Right> <C-w>>
@@ -185,16 +191,18 @@ noremap <C-H> <C-W>h
 noremap <C-L> <C-W>l
 
 " gj gk gt gT gJ gI bp|bn
-nnoremap <A-m> :bn<CR>
-nnoremap <A-n> :bp<CR>
-nnoremap <A-d> :bd<CR>
+
+nnoremap <A-m> :bn<CR>  " buffer next
+nnoremap <A-n> :bp<CR>  " buffer prev
+nnoremap <A-d> :bd<CR>  " buffer delet
 nnoremap <C-p> :tabonly<CR>
 nnoremap <C-o> :only<CR>
 nnoremap <C-n> :tabnew<CR>
-
-noremap <F9> :set invrl!<CR>
+" invrightleft
+noremap <F9> :set invrl!<CR> " invrightleft
 inoremap <F9> <Esc>:set invrl!<CR>a
 
+nnoremap <Leader>rn :set relativenumber!<CR>
 
 " Mappings code goes here.
 
@@ -203,13 +211,12 @@ inoremap <F9> <Esc>:set invrl!<CR>a
 if has('nvim')
     if empty(glob('~/.config/nvim/autoload/plug.vim'))
         silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-        autocmd VimEnter PlugInstall --sync | source $MYVIMRC
+        autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
     endif
     call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-commentary'
     Plug 'machakann/vim-highlightedyank'
-    Plug 'tpope/vim-unimpaired'
     call plug#end()
 else
     " if empty(glob('~/.vim/autoload/plug.vim'))
