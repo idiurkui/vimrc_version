@@ -158,8 +158,6 @@ nnoremap <Leader>m ea
 nnoremap <Leader>N Bi
 nnoremap <Leader>M Ea
 noremap <Leader>T :terminal<CR>
-noremap <Leader>lT :vsp<CR>:terminal<CR>i
-noremap <Leader>bT :sp<CR>:terminal<CR>
 noremap <Leader>lsp :vsp<CR>
 noremap <Leader>bsp :sp<CR>
 
@@ -183,6 +181,8 @@ vnoremap <Leader>s "_s
 vnoremap <Leader>a ^
 vnoremap <Leader>e $
 vnoremap ie <Esc>ggVG
+
+
 
 noremap <C-J> <C-W>j
 noremap <C-K> <C-W>k
