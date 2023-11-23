@@ -153,7 +153,6 @@ nnoremap die ggVGd
 nnoremap <Leader>die ggVG"_d
 
 " select all the buffer
-nnoremap <Leader>A ggVG
 nnoremap <Leader>n bi
 nnoremap <Leader>m ea
 nnoremap <Leader>N Bi
@@ -183,7 +182,7 @@ vnoremap <Leader>x "_x
 vnoremap <Leader>s "_s
 vnoremap <Leader>a ^
 vnoremap <Leader>e $
-
+vnoremap ie <Esc>ggVG
 
 noremap <C-J> <C-W>j
 noremap <C-K> <C-W>k
